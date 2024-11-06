@@ -9,9 +9,6 @@ layout: default
 
 some text here
 
-{% include_relative test_header.md %}
-
-
 some more text here and some more
 and some more
 
@@ -28,4 +25,3 @@ Try some headings
 
 #### Heading 4
 
-{% include_relative test_footer.md %}
