@@ -1,1 +1,373 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Extraction &gt; Extractors &gt; General Extractor Steps &gt; Determine source</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Document pages,Ignore font size difference in paragraph building" />
+   <meta name="description" content="TEXT SCRAMBLING in TRIAL VERSION OUTPUT! In evaluation mode, Help+Manual will scramble individual characters in random words in your published output files. This is a..." />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+   <link type="text/css" href="RobotoFont.css" rel="stylesheet" />
+   <link type="text/css" href="custom.css" rel="stylesheet" />
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+        padding:0; 
+        background: #ffffff; 
+      } 
+      div#printheader { display: none; }
+      #idheader { 
+        width:100%; 
+        height:auto; 
+        padding: 0; 
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+      } 
+      /* The "min-height" for "#idheader table" ensures that the (blue) header of the topic
+         has at least the same height as the header of the navigation panel left of it */
+      #idheader table { background: #FFFFFF; min-height: 59px }             
+      #idheader h1 span { color: #FFFFFF }     
+      #idnav {
+        text-align: right;
+        width: 126px;
+        vertical-align: middle;        
+      } 
+      #idnav a { text-decoration: none }
+      #idnav span {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: 4px;
+        background:url('hm_webhelp_buttons_grey.png') top left no-repeat;
+      } 
+      #idnav a span {
+        background-image:url('hm_webhelp_buttons_grey.png');
+      } 
+      #idnav a span:hover {
+        background-image:url('hm_webhelp_buttons_black.png');
+      } 
+      #idnav span.hmbtnprev { background-position: 0 -32px }
+      #idnav span.hmbtnnext { background-position: -24px -32px }
+      #idnav span.hmbtntop  { background-position: -48px -32px }
+      #idnav span.hmbtntoggle  { width: 20px; background-position: -70px -32px }
+      #idnav span.hmbtnprint  { background-position: -88px -32px }
+
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}       
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }      
+      #switchtoggles { text-align: right; padding: 0 2px 0 0; font-size: 90%; } 
+      .sync-toc { color: #FFFFFF; font-size: 8pt; font-weight: bold; display: none; }
+      .sync-toc a { color: #FFFFFF; text-decoration: none; font-weight: bold;}
+      .sync-toc a:visited { color: #FFFFFF; }
+      .sync-toc a:hover { text-decoration: underline; }
+      a.hmanchor { display: inline-block; margin-top: -4em; padding-top: 4em }	  
+   </style>
+   <style TYPE="text/css" media="print">
+      div#idheader, img.dropdown-toggle-icon, p.help-url { display:none } 
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("Index.html", "xtract_con_extr_step_determsource.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1" style="color: #404040;">Determine source</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;" cellspacing="0" cellpadding="0"> 
+  <tr>
+    <td class="topichead" style="text-align:left; vertical-align:bottom">
+      <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="Index.html?xtract_con_extr_step_determsource.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+      <p class="crumbs"><b>Navigation:</b>&nbsp;
+      
+      <a href="xtract_con_extraction.htm">Extraction</a> &gt; <a href="xtract_con_extr.htm">Extractors</a> &gt; <a href="xtract_con_extr_general_steps.htm">General Extractor Steps</a>&nbsp;&gt;</p>
+   
+      <h1 class="p_Heading1"><span class="f_Heading1" style="color: #404040;">Determine source</span></h1>
+
+    </td>
+    <td class="topichead" id="idnav">
+      <a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections"><span class="hmbtntoggle"></span></a>
+      <a href="xtract_con_extr_step_checkprecon.htm" title="Previous Topic"><span class="hmbtnprev"></span></a>
+      <a href="xtract_con_extr_general_steps.htm" title="Parent Chapter"><span class="hmbtntop"></span></a>
+      <a href="xtract_con_extr_step_preloadfieldval.htm" title="Next Topic"><span class="hmbtnnext"></span></a>
+      
+    </td>
+  </tr>  
+</table>
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser --> 
+<!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<hr style="height:2px; color:#FF0000; border-width:0; background-color:#000000;" /><p class="p_Normal"><span class="f_BodyText" style="color: #404040;">&nbsp;</span></p>
+<p class="p_BodyText"><span class="f_BodyText" style="color: #404040;">If an extractor starts, the Determine source extractor step determines the source to be used for extraction. </span><br />
+<span class="f_BodyText" style="color: #404040;">This can be the OCR or the candidates of a previous extractor. The configuration of this extractor step specifies mainly</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 19px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="color: #404040;">Source to be used, i.e. OCR or candidates from a previous extractor</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 19px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="color: #404040;">Tokens where the labels and candidates are to be searched for, i.e. in </span><span class="f_Continue_1" style="color: #404040;">single words, lines or paragraphs</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 19px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Continue_1" style="color: #404040;">Properties for line and paragraph building</span><br />
+<span class="f_Continue_1" style="color: #404040;">&nbsp;</span></p>
+<div style="text-align: justify; text-indent: 0; padding: 0 0 0 0; margin: 11px 0 11px 0;"><table style="border:none;border-spacing:0;padding:0;line-height: 1.44;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a1_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span class="f_BodyText" style="font-weight: bold;"><a class="dropdown-toggle" style="font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a1','toggle0186a1_ICON')">Settings</a> for the extractor step</span></td></tr></table></div>
+<div id="toggle0186a1" class="dropdown-toggle-body" style="text-align: justify; line-height: 1.44; padding: 0 0 0 0; margin: 11px 0 11px 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><div style="text-align: justify; text-indent: 0; padding: 0 0 0 0; margin: 11px 0 11px 0;"><table style="border:none;border-spacing:0;padding:0;line-height: 1.44;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a2_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span class="f_BodyText" style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a2','toggle0186a2_ICON')">Ignore font size difference in paragraph building</a></span></td></tr></table></div>
+<div id="toggle0186a2" class="dropdown-toggle-body" style="text-align: justify; line-height: 1.44; padding: 0 0 0 0; margin: 11px 0 11px 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal"><span style="color: #404040;">Check box</span><span class="f_BodyText" style="color: #404040;"> to specify whether the font size is to be considered for building paragraphs</span><br />
+<span class="f_BodyText" style="color: #404040;">&nbsp;</span></p>
+<p class="p_Normal"><span style="color: #404040;">Checked: Font size differences are ignored.</span><br />
+<span style="color: #404040;">&nbsp;</span></p>
+<p class="p_Normal"><span style="color: #404040;">Unchecked: The font size is checked. If the font size difference of two words is </span><span class="f_Continue_2" style="color: #404040;">greater than or equal to</span><span style="color: #404040;"> 2 pixels, it is assumed that they belong to different paragraphs.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a3_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a3','toggle0186a3_ICON')">Ignore font size difference in line building</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a3" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal"><span style="color: #404040;">Check box</span><span class="f_BodyText" style="color: #404040;"> to specify whether the font size is to be considered for building lines</span></p>
+<p class="p_Normal">&nbsp;<br />
+<span style="color: #404040;">Checked: Font size differences are ignored. </span></p>
+<p class="p_Normal">&nbsp;<br />
+<span style="color: #404040;">Unchecked: The font size is checked. If the font size difference of two words is </span><span class="f_Continue_2" style="color: #404040;">greater than or equal to</span><span style="color: #404040;"> 2 pixels, it is assumed that they belong to different lines.</span><br />
+<span style="color: #404040;">&nbsp;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Bullet_1"><a id="101start" class="hmanchor"></a><span class="f_BodyText" style="font-weight: bold; color: #404040;">Grouping for labels</span></p>
+<hr style="height:1px; color:#C0C0C0; border-width:0; background-color:#c0c0c0;" /><p class="p_BodyText"><span class="f_BodyText" style="color: #404040;">Options to specify the parameters for line and paragraph building for the label search</span></p>
+<div style="text-align: justify; text-indent: 0; padding: 0 0 0 0; margin: 11px 0 11px 0;"><table style="border:none;border-spacing:0;padding:0;line-height: 1.44;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a4_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span class="f_Toggle_HowTo" style="font-weight: normal; color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a4','toggle0186a4_ICON')">Grouping level</a></span></td></tr></table></div>
+<div id="toggle0186a4" class="dropdown-toggle-body" style="text-align: justify; line-height: 1.44; padding: 0 0 0 0; margin: 11px 0 11px 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal"><span style="color: #404040;">The grouping level for labels determines where the extractor searches for the labels. </span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Words</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches for single words that have more than one character. Words are separated by spaces.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Lines</span><span class="f_Bullet_1" style="color: #404040;">: </span><span class="f_Bullet_2" style="color: #404040;">The</span><span class="f_Bullet_1" style="color: #404040;"> extractor searches on lines.</span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches for labels in tokens that have the same Y coordinate and have no greater token distance than specified in the </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Token distance horizontal for line grouping</span><span class="f_Continue_2" style="color: #404040;"> and </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Token &nbsp; &nbsp; distance vertical for line grouping</span><span class="f_Continue_2" style="color: #404040;"> parameters.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Previous extractor</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches for the labels in the candidates of a previous extractor.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Paragraphs</span><span class="f_Bullet_1" style="color: #404040;">: The extractor </span><span class="f_Bullet_2" style="color: #404040;">searches</span><span class="f_Bullet_1" style="color: #404040;"> on paragraphs. </span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches on lines that have nearly the same X coordinate and that have no greater vertical distance than indicated in the </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Line distance vertical for paragraph grouping</span><span class="f_Continue_2" style="color: #404040;"> option.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Sentences</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on sentences.</span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches for labels in tokens that are between points considering that the first word of a sentence is capitalized. In addition, other layout-based sentence rules such as indention are taken into account.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Lines from OCR Engine</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on the lines that have already been determined by the OCR engine.</span><br />
+<span class="f_Continue_2" style="color: #404040;">Since the OCR Engine's line building is done after paragraph building, this option allows to search on lines within columns if the page text is arranged in multiple columns. In case of line building by DocProStar (</span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Lines</span><span class="f_Continue_2" style="color: #404040;"> option), a line is always built over the entire page width.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Paragraphs from OCR Engine</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on paragraphs that have already been determined by the OCR engine.</span></p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a5_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a5','toggle0186a5_ICON')">Horizontal token distance for line grouping</a></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a5" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Maximum horizontal distance between two tokens to be considered as part of the same line</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a6_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a6','toggle0186a6_ICON')">Vertical token distance for line grouping</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a6" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Maximum vertical distance between two tokens to be considered as part of the same line</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a7_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a7','toggle0186a7_ICON')">Vertical line distance for paragraph grouping</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a7" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Maximum vertical distance between two lines to be considered as part of the same paragraph</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal"><a id="101end" class="hmanchor"></a></p>
+<p class="p_Normal"><a id="102start" class="hmanchor"></a><span class="f_BodyText" style="font-weight: bold; color: #404040;">Grouping for Candidates</span></p>
+<hr style="height:1px; color:#C0C0C0; border-width:0; background-color:#c0c0c0;" /><p class="p_Normal">&nbsp;<br />
+<span class="f_BodyText" style="color: #404040;">Options to specify the parameters for line and paragraph building for the candidate search</span><br />
+<span class="f_BodyText" style="color: #404040;">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a8_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a8','toggle0186a8_ICON')">Grouping level</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a8" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal"><span style="color: #404040;">The</span><span class="f_BodyText" style="color: #404040;"> grouping level for candidates determines where the extractor searches for the candidates.</span></p>
+<p class="p_Normal"><span style="color: #404040;">As with the grouping level for labels, candidates can be searched for in the candidates of a previous extractor or in tokens that contain just a word, a line or a whole paragraph. The options provided in the list box are the same as described above but apply to the search for candidates.</span><br />
+<span style="color: #404040;">&nbsp;</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="color: #404040;">Words: The extractor searches for single words that have more than one character. Words are separated by spaces.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Lines</span><span class="f_Bullet_1" style="color: #404040;">: </span><span class="f_Bullet_2" style="color: #404040;">The</span><span class="f_Bullet_1" style="color: #404040;"> extractor searches on lines.</span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches for labels in tokens that have the same Y coordinate and have no greater token distance than specified in the </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Token distance horizontal for line grouping</span><span class="f_Continue_2" style="color: #404040;"> and </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Token &nbsp; &nbsp; distance vertical for line grouping</span><span class="f_Continue_2" style="color: #404040;"> parameters.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Previous extractor</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches for the labels in the candidates of a previous extractor.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Paragraphs</span><span class="f_Bullet_1" style="color: #404040;">: The extractor </span><span class="f_Bullet_2" style="color: #404040;">searches</span><span class="f_Bullet_1" style="color: #404040;"> on paragraphs. </span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches on lines that have nearly the same X coordinate and that have no greater vertical distance than indicated in the </span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Line distance vertical for paragraph grouping</span><span class="f_Continue_2" style="color: #404040;"> option.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Sentences</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on sentences.</span><br />
+<span class="f_Continue_2" style="color: #404040;">It searches for labels in tokens that are between points considering that the first word of a sentence is capitalized. In addition, other layout-based sentence rules such as indention are taken into account.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Lines from OCR Engine</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on the lines that have already been determined by the OCR engine.</span><br />
+<span class="f_Continue_2" style="color: #404040;">Since the OCR Engine's line building is done after paragraph building, this option allows to search on lines within columns if the page text is arranged in multiple columns. In case of line building by DocProStar &nbsp;(</span><span class="f_Continue_2" style="font-style: italic; color: #404040;">Lines</span><span class="f_Continue_2" style="color: #404040;"> option), a line is always built over the entire page width.</span></p>
+<p class="p_Bullet_1" style="text-indent: 0; padding-left: 38px; margin-left: 0;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#8226;</span><span class="f_Bullet_1" style="font-weight: bold; color: #404040;">Paragraphs from OCR Engine</span><span class="f_Bullet_1" style="color: #404040;">: The extractor searches on paragraphs that have already been determined by the OCR engine.</span></p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186a9_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186a9','toggle0186a9_ICON')">Horizontal token distance for line grouping</a></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186a9" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal"><span style="color: #404040;">Maximum horizontal distance between two tokens to be considered as part of the same line</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186aa_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186aa','toggle0186aa_ICON')">Vertical token distance for line grouping</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186aa" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Maximum vertical distance between two tokens to be considered as part of the same line</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186ab_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186ab','toggle0186ab_ICON')">Vertical line distance for paragraph grouping</a></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186ab" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Maximum vertical distance between two lines to be considered as part of the same paragraph</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal"><a id="102end" class="hmanchor"></a></p>
+<p class="p_Normal"><a id="103start" class="hmanchor"></a><span style="font-weight: bold; color: #404040;">Previous extractor</span></p>
+<hr style="height:1px; color:#C0C0C0; border-width:0; background-color:#c0c0c0;" /><p class="p_Normal">&nbsp;<br />
+<span class="f_BodyText" style="color: #404040;">Options to specify the parameters for previous extractor </span><span style="color: #404040;">if the </span><span style="font-style: italic; color: #404040;">Previous extractor</span><span style="color: #404040;"> option is selected in the </span><span style="font-style: italic; color: #404040;">Grouping level labels</span><span style="color: #404040;"> or in the </span><span style="font-style: italic; color: #404040;">Grouping level candidates</span><span style="color: #404040;"> list box</span></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186ac_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186ac','toggle0186ac_ICON')">Previous extractor</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186ac" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Previous extractor that is to be used</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="border:none;border-spacing:0;padding:0;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:18px"><img id="toggle0186ad_ICON" class="dropdown-toggle-icon" alt="hmtoggle_arrow1" width="9" height="9" style="margin:0;width:9px;height:9px;border:none" src="hmtoggle_arrow1.gif"/></td><td style="border:none;padding:0"><span class="f_Continue_1" style="color: #404040;"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #404040; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','toggle0186ad','toggle0186ad_ICON')">Use of previous extractor candidates</a></span></td></tr></table></div>
+<p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;">&nbsp;</p>
+<div id="toggle0186ad" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 18px;"><table style="border:none; border-spacing:0;">
+<tr>
+<td style="vertical-align:top; padding:0; border:none"><p class="p_Normal" style="text-indent: -18px; margin: 0 0 0 18px;"><span style="color: #404040;">Options to specify whether the candidates of the previous extractor will be added as new candidates to the extractor.</span><br />
+<span style="color: #404040;">&nbsp;</span></p>
+<p class="p_Bullet_2" style="text-indent: 0; padding-left: 19px; margin-left: 20px;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#9642;</span><span class="f_Bullet_1" style="color: #404040;">Add none as new candidates: No candidate is added.</span></p>
+<p class="p_Bullet_2" style="text-indent: 0; padding-left: 19px; margin-left: 20px;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#9642;</span><span class="f_Bullet_1" style="color: #404040;">Add all as new candidates: All candidates are added.</span></p>
+<p class="p_Bullet_2" style="text-indent: 0; padding-left: 19px; margin-left: 20px;"><span class="f_Bullet_1" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';color:#404040;display:inline-block;width:19px;margin-left:-19px">&#9642;</span><span class="f_Bullet_1" style="color: #404040;">Add all except the best as new candidates: All but the best candidates are added.</span></p></td>
+</tr>
+</table>
+</div>
+<p class="p_BodyText"><a id="103end" class="hmanchor"></a><br />
+<a id="104start" class="hmanchor"></a><span class="f_BodyText" style="font-weight: bold; color: #404040;">Document pages</span></p>
+<hr style="height:1px; color:#C0C0C0; border-width:0; background-color:#c0c0c0;" /><p class="p_BodyText"><span class="f_BodyText">&nbsp;</span><br />
+<span class="f_BodyText" style="color: #404040;">Specification of which </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Document</span><span class="f_BodyText" style="color: #404040;"> pages the information is to be extracted from</span></p>
+<p class="p_BodyText"><span class="f_BodyText" style="color: #404040;">The </span><span class="f_BodyText" style="font-style: italic; color: #404040;">First</span><span class="f_BodyText" style="color: #404040;"> and </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Last</span><span class="f_BodyText" style="color: #404040;"> spin boxes make it possible to indicate the number of the first and the last </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Document</span><span class="f_BodyText" style="color: #404040;"> pages. If, for example, in the </span><span class="f_BodyText" style="font-style: italic; color: #404040;">First</span><span class="f_BodyText" style="color: #404040;"> spin box the number 2 is chosen and in the </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Last</span><span class="f_BodyText" style="color: #404040;"> spin box the number 2, the first 2 and the last 2 pages of the </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Document</span><span class="f_BodyText" style="color: #404040;"> are used for extraction, all other </span><span class="f_BodyText" style="font-style: italic; color: #404040;">Document</span><span class="f_BodyText" style="color: #404040;"> pages are ignored.</span><br />
+<span class="f_BodyText" style="color: #404040;">&nbsp;</span></p>
+<p class="p_BodyText"><span class="f_NOTE_TIP" style="color: #787771;">Tip: If the exact number of the pages in the </span><span class="f_BodyText" style="font-style: italic; color: #787771;">Document</span><span class="f_NOTE_TIP" style="color: #787771;"> is not known, please ensure that the numbers in the spin boxes are high enough, e.g. 1000</span><br />
+<span class="f_NOTE_TIP" style="font-size: 12pt; color: #787771;">&nbsp;</span></p>
+<p class="p_BodyText"><a id="104end" class="hmanchor"></a></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_BodyText"><span class="f_BodyText">&nbsp;</span></p>
+<p class="p_BodyText"><span class="f_BodyText">&nbsp;</span></p>
+<p class="p_BodyText"><span class="f_BodyText" style="color: #c7c1b8;">© TCG Informatik AG</span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $(window).bind('resize', function() {
+      var y = $('#idheader').height(); 
+      $('#idcontent').css('margin-top', y);
+      var par = window.parent;
+      if ($( par ).width() <= $( window ).width()+20) {
+        $('#idheader').css('position', 'relative');
+        $('#idcontent').css('margin-top', 0);
+        $('#idbacktotop').css('display', 'block');
+        $('.hmanchor').css('margin-top', -20);
+	$('.hmanchor').css('padding-top', 20);
+      }
+      else {
+        $('#idheader').css('position', 'fixed');
+        $('#idcontent').css('margin-top', $('#idheader').height());
+        $('#idbacktotop').css('display', 'none');
+        $('.hmanchor').css('margin-top', -y-20);
+	$('.hmanchor').css('padding-top', y+20);
+      }
+    });
+    
+    $(window).resize(); //trigger event for initially small displays
+  });
+
+if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) { $('.sync-toc').show();$('p.crumbs').hide();}
+
+</script>
+<script type="text/javascript">
+HMInitToggle('toggle0186a1_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a1\',\'toggle0186a1_ICON\')');
+HMInitToggle('toggle0186a1','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a2_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a2\',\'toggle0186a2_ICON\')');
+HMInitToggle('toggle0186a2','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a3_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a3\',\'toggle0186a3_ICON\')');
+HMInitToggle('toggle0186a3','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a4_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a4\',\'toggle0186a4_ICON\')');
+HMInitToggle('toggle0186a4','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a5_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a5\',\'toggle0186a5_ICON\')');
+HMInitToggle('toggle0186a5','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a6_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a6\',\'toggle0186a6_ICON\')');
+HMInitToggle('toggle0186a6','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a7_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a7\',\'toggle0186a7_ICON\')');
+HMInitToggle('toggle0186a7','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a8_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a8\',\'toggle0186a8_ICON\')');
+HMInitToggle('toggle0186a8','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186a9_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186a9\',\'toggle0186a9_ICON\')');
+HMInitToggle('toggle0186a9','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186aa_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186aa\',\'toggle0186aa_ICON\')');
+HMInitToggle('toggle0186aa','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186ab_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186ab\',\'toggle0186ab_ICON\')');
+HMInitToggle('toggle0186ab','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186ac_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186ac\',\'toggle0186ac_ICON\')');
+HMInitToggle('toggle0186ac','hm.type','dropdown','hm.state','0');
+HMInitToggle('toggle0186ad_ICON','hm.type','dropdown','hm.state','0','hm.src0','hmtoggle_arrow0.gif','hm.src1','hmtoggle_arrow1.gif','onclick','HMToggle(\'toggle\',\'toggle0186ad\',\'toggle0186ad_ICON\')');
+HMInitToggle('toggle0186ad','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+</html>
